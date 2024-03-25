@@ -13,7 +13,7 @@ export default {
 			KV =  env.KV;
 		} else {
 			//throw new Error('KV 命名空间未绑定');
-			return new Response('KV 命名空间未绑定', {
+			return new Response('KV OKOKOK', {
 				status: 400,
 				headers: { 'content-type': 'text/plain; charset=utf-8' },
 			});
